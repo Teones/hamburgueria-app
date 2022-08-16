@@ -1,0 +1,118 @@
+.sign-up {
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 152px 24px 48px 24px;
+}
+
+.sign-up .icone {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+
+    font-size: 18px;
+    color: #FB9400;
+}
+
+.sign-up .header {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 40px;
+}
+.sign-up .header h1 {
+    font-family: "Calistoga";
+    font-size: 36px;
+    font-weight: 600;
+}
+.sign-up .header h1 b {
+    color: #FB9400;
+}
+.sign-up .header .descricao {
+    font-family: "inter";
+    font-size: 18px;
+    font-weight: 400;
+    color: #1B1B1BCC;
+}
+
+.sign-up .divisoria {
+    width: 100%;
+    background-color: #E2E2E2;
+    border: 0.5px solid #E2E2E2;
+    display: flex;
+    justify-content: center;
+}
+.sign-up .divisoria .centralizada {
+    width: 50%;
+    background-color: #FB9400;
+    border: 0.5px solid #FB9400;
+}
+
+.sign-up form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 56px;
+}
+.sign-up form input {
+    width: 100%;
+    height: 61px;
+    border-radius: 4px;
+    border: none;
+    background-color: #ffffff;
+    padding-left: 16px;
+
+    font-family: "inter";
+    font-size: 16px;
+    font-weight: 400;
+    color: #1B1B1B80;
+}
+.sign-up form {
+    position: relative;
+}
+.sign-up form .icone {
+    position: absolute;
+    font-size: 20px;
+    color: #1B1B1B66;
+
+    margin-top: 128px;
+    margin-left: calc(100% - 80px);
+}
+.sign-up form input::placeholder {
+    font-family: "inter";
+    font-size: 16px;
+    font-weight: 400;
+    color: #1B1B1B80;
+}
+.sign-up form button {
+    width: 100%;
+    height: 61px;
+    border-radius: 4px;
+    background-color: #FB9400;
+    border: none;
+
+    font-family: "inter";
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.sign-up .login {
+    font-family: "inter";
+    font-size: 16px;
+    font-weight: 400;
+    color: #1B1B1BCC;
+
+    margin-top: 48px;
+    margin-bottom: 62px;
+}
+.sign-up .login b {
+    font-weight: 600;
+    color: #FB9400;
+}

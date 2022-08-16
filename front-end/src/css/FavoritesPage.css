@@ -1,0 +1,35 @@
+.favorites {
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 24px 48px 24px;
+}
+
+.favorites .header {
+    width: 100%;
+
+    font-family: "inter";
+    font-size: 24px;
+    font-weight: 600;
+    color: #1B1B1B;
+
+    display: flex;
+    justify-content: center;
+}
+.favorites .header ion-icon {
+    color: #FB9400;
+    position: absolute;
+    left: 36px;
+}
+.favorites .myFavorites{
+    color: black;
+    font-family: 'inter';
+    font-size: 18px;
+    font-weight: 400;
+
+    display: flex;
+
+    padding: 0 17px;
+}

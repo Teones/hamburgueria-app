@@ -1,0 +1,73 @@
+.menu {
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    padding: 70px 22px 40px 22px;
+}
+
+.menu .header {
+    width: 100%;
+    padding-left: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu .header p {
+    font-family: "inter";
+    font-size: 40px;
+    font-weight: 500;
+    color: #1B1B1B;
+    padding-top: 10px;
+}
+.menu .header button {
+    width: 65%;
+    height: 56px;
+    border-radius: 4px;
+    border: 2px solid #FB9400;
+    background-color: #F9F9FB;
+
+    font-family: "inter";
+    font-size: 16px;
+    font-weight: 600;
+    color: #FB9400;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu .header ion-icon {
+    color: #FB9400;
+    font-size: 24px;
+}
+
+.menu .options {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+    gap: 47px;
+}
+.menu .options .divisoria {
+    width: 100%;
+    background-color: #E2E2E2;
+    border: 0.5px solid #E2E2E2;
+}
+.menu .options .divisoria .divisoria {
+    width: calc(70% - 42px);
+    background-color: #FB9400;
+    border: 0.5px solid #FB9400;
+    margin-left: 42px;
+}
+.menu .options .option {
+    width: 100%;
+    
+    font-family: "inter";
+    font-size: 16px;
+    font-weight: 400;
+    color: #6A7D8B;
+    
+    display: flex;
+    gap: 22px;
+    padding-left: 42px;
+}

@@ -1,0 +1,138 @@
+.signin {
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 152px 24px 48px 24px;
+}
+
+.signin .icone {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+
+    font-size: 18px;
+    color: #FB9400;
+}
+
+.signin .header {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 40px;
+}
+.signin .header h1 {
+    font-family: "Calistoga";
+    font-size: 36px;
+    font-weight: 600;
+}
+.signin .header h1 b {
+    color: #FB9400;
+}
+.signin .header .descricao {
+    font-family: "inter";
+    font-size: 18px;
+    font-weight: 400;
+    color: #1B1B1BCC;
+    text-align: center;
+}
+
+.signin .divisoria {
+    width: 100%;
+    background-color: #E2E2E2;
+    border: 0.5px solid #E2E2E2;
+    display: flex;
+    justify-content: center;
+}
+.signin .divisoria .centralizada {
+    width: 50%;
+    background-color: #FB9400;
+    border: 0.5px solid #FB9400;
+}
+
+.signin form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 56px;
+}
+.signin form input {
+    width: 100%;
+    height: 61px;
+    border-radius: 4px;
+    border: none;
+    background-color: #ffffff;
+    padding-left: 16px;
+
+    font-family: "inter";
+    font-size: 16px;
+    font-weight: 400;
+    color: #1B1B1B80;
+}
+.signin form {
+    position: relative;
+}
+.signin form .icone {
+    position: absolute;
+    font-size: 20px;
+    color: #1B1B1B66;
+
+    margin-top: 35px;
+    margin-left: calc(100% - 80px);
+}
+.signin form input::placeholder {
+    font-family: "inter";
+    font-size: 16px;
+    font-weight: 400;
+    color: #1B1B1B80;
+}
+.signin form button {
+    width: 100%;
+    height: 61px;
+    border-radius: 4px;
+    background-color: #FB9400;
+    border: none;
+
+    font-family: "inter";
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.signin .redefinirSenha {
+    font-family: "inter";
+    font-size: 16px;
+    font-weight: 400;
+    color: #1B1B1BCC;
+
+    margin-top: 48px;
+    margin-bottom: 62px;
+}
+.signin .redefinirSenha b {
+    font-weight: 600;
+    color: #FB9400;
+}
+
+.signin button {
+    width: 100%;
+    height: 61px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid #FB9400;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "inter";
+    font-size: 16px;
+    font-weight: 600;
+
+    margin-top: 62px;
+}
